@@ -1654,7 +1654,7 @@ ol {
   border-color: transparent;
   background-image: url("../../img/wa-logo-white.svg");
   background-repeat: no-repeat;
-  background-position: 15px;
+  background-position: 13px;
   background-size: 25px auto;
   text-transform: none;
   transition: none;
@@ -1972,7 +1972,7 @@ ol {
 .header .button .btn{
   padding-left: 45px;
   text-transform: none;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 .wa-icon{
   background-image: url("../../img/wa-logo-white.svg");
