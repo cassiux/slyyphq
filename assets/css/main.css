@@ -1989,6 +1989,26 @@ ol {
   transition: none!important;
   text-transform: none;
 }
+.hero-area .hero-content .button .btn a{
+  padding-left: 30px;
+  
+}
+.wa-icon2 a{
+  background-image: url("../../img/wa-logo.svg");
+  background-repeat: no-repeat;
+  background-position: 15px;
+  background-size: 25px auto;
+  text-transform: none;
+  padding-left: 10px;
+}
+.wa-icon2 :hover{
+  background-image: url("../../img/wa-logo-white.svg");
+  background-repeat: no-repeat;
+  background-position: 15px;
+  background-size: 25px auto;
+  transition: none!important;
+  text-transform: none;
+}
 
 .add-list-button .btn i {
   font-size: 14px;
@@ -2029,11 +2049,31 @@ ol {
   .hero-area .hero-image {
     margin-top: 40px;
   }
+  .wa-icon2 a{
+
+    background-position: 15px;
+ 
+  }
+  .wa-icon2 :hover{
+
+    background-position: 15px;
+
+  }
 }
 
 @media (max-width: 767px) {
   .hero-area .hero-image {
     margin-top: 40px;
+  }
+  .wa-icon2 a{
+
+    background-position: 45px;
+ 
+  }
+  .wa-icon2 :hover{
+
+    background-position: 45px;
+
   }
 }
 
@@ -2071,6 +2111,7 @@ ol {
   background-color: #fff;
   color: #E44474;
   margin-right: 12px;
+  text-transform: none;
 }
 
 .hero-area .hero-content .button .btn i {
@@ -2078,8 +2119,9 @@ ol {
 }
 
 .hero-area .hero-content .button .btn:hover {
-  background-color: #081828;
+  background-color: #E44474;
   color: #fff;
+  text-transform: none;
 }
 
 .hero-area .hero-content .button .btn.btn-alt {
