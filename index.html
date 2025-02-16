@@ -1,24 +1,16 @@
-<!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="zxx" data-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Slyyp - Group holiday planning made easier</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg">
 
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Slyyp - Group holiday planning made easier</title>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
-
-    <!-- ========================= CSS here ========================= -->
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
-    <link rel="stylesheet" href="assets/css/animate.css" />
-    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
-    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <script src="https://getlaunchlist.com/js/widget.js" defer></script>
-    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
-</head>
+        <!-- ========================= CSS here ========================= -->
+        <link rel="stylesheet" href="bulma/css/bulma.min.css">
+        <link rel="stylesheet" href="custom.css">
+    </head>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-KRL223F4MZ"></script>
 <script>
@@ -29,282 +21,163 @@
   gtag('config', 'G-KRL223F4MZ');
 </script>
 <body>
-    <!--[if lte IE 9]>
-      <p class="browserupgrade">
-        You are using an <strong>outdated</strong> browser. Please
-        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
-        your experience and security.
-      </p>
-    <![endif]-->
-
-    <!-- Preloader -->
-    <div class="preloader">
-        <div class="preloader-inner">
-            <div class="preloader-icon">
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+    <div class="dot"></div>
+    <div class="slyyp-decoration-container">
+        <div class="slyyp-decoration-bg has-background-primary"></div>
+        <div class="slyyp-decoration-bg-2 has-background-secondary" style=""></div>
     </div>
-    <!-- /End Preloader -->
-
+    
     <!-- Start Header Area -->
-    <header class="header navbar-area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-12">
-                    <div class="nav-inner">
-                        <!-- Start Navbar -->
-                        <nav class="navbar navbar-expand-lg">
-                            <a class="navbar-brand" href="index.html">
-                                <img src="assets/images/logo/white-logo.svg" alt="Logo">
-                            </a>
-                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                                <span class="toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
-                                <ul id="nav" class="navbar-nav ms-auto">
-                                    <li class="nav-item">
-                                        <a href="#home" class="page-scroll active"
-                                            aria-label="Toggle navigation">Home</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#features" class="page-scroll"
-                                            aria-label="Toggle navigation">Why Slyyp?</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#about-us" class="page-scroll"
-                                            aria-label="Toggle navigation">About us</a>
-                                    </li>
-                                    
-                                </ul>
-                            </div> <!-- navbar collapse -->
-                            <div class="button add-list-button wa-icon">
-                                <a href="https://wa.me/+447404015422?text=Hey+Slyyp,+help+me+with+my+trip+planning!" class="btn" target="new">Chat with Slyyp</a>
-                            </div>
-                        </nav>
-                        <!-- End Navbar -->
-                    </div>
+    <header class="container">
+        <nav class="navbar has-background-inherit" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item" href="https://bulma.io">
+                <img src="./assets/logo.svg" alt="Slyyp"><span class="has-text-weight-bold is-size-4">Slyyp</span>
+                </a>
+          
+              <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+              </a>
+            </div>
+          
+            <!--<div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item">
+                        Why Slyyp
+                    </a>
+
+                    <a class="navbar-item">
+                        Founders
+                    </a>
+                </div>-->
+          
+              <div class="navbar-end">
+                <div class="navbar-item">
+                  <div class="buttons">
+                    <a href="https://wa.me/+447404015422?text=Hey+Slyyp,+help+me+with+my+trip+planning!" class="button is-primary" target="new">Try Slyyp Alpha</a>
+                    <!--<a class="button is-light">Join The Private Beta</a>-->
+                  </div>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
+              </div>
+            </div>
+          </nav>
     </header>
     <!-- End Header Area -->
 
     <!-- Start Hero Area -->
-    <section id="home" class="hero-area" style="padding-bottom:0;">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-5 col-md-12 col-12">
-                    <div class="hero-content">
-                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">Group holiday planning <br> made easier</h1>
-                        <p class="wow fadeInLeft" data-wow-delay=".6s">Slyyp helps you search, organise your group travel, making booking decisions easier on your platform of choice. Wheather you are on desktop or mobile, we got you covered!</p>
-                        <div class="button wow fadeInLeft wa-icon2" data-wow-delay=".8s">
-                            <a href="https://wa.me/+447404015422?text=Hey+Slyyp,+help+me+with+my+trip+planning!" tagert="new" class="btn">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chat with Slyyp</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-7 col-md-12 col-12">
-                    <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
-                        <img src="assets/images/hero/phone.png" alt="#">
-                    </div>
-                </div>
+    <section id="home" class="hero is-medium">
+        <div class="hero-body">
+            <div class="container is-max-desktop has-text-centered">
+                
+                        <h1 class="title is-size-0">Group holiday planning <span class="is-gradient-text">made easier</span></h1>
+                        <p class="subtitle is-4">Slyyp helps you search, organise your group travel, making booking decisions easier on your platform of choice. Whether you are on desktop or mobile, we got you covered!</p>
+                        <a href="https://wa.me/+447404015422?text=Hey+Slyyp,+help+me+with+my+trip+planning!" class="button is-primary is-large" target="new">Try Slyyp, it's free!</a>
+                        
             </div>
         </div>
     </section>
     <!-- End Hero Area -->
 
     <!-- Start Features Area -->
-    <section id="features" class="features section">
+    <section id="features" class="section">
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        <h3 class="wow zoomIn" data-wow-delay=".2s">Why Slyyp?</h3>
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Group trips are now easy to plan
-                        </h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Slyyp is the new way to plan your next group trip, from the initial dreaming phase, itinerary organization and expert advices to make your next holiday dream come true</p>
+            <div class="columns">
+                <div class="column is-half is-align-content-center">
+                    <h2 class="is-size-1">Slyyp is everyone's personal travel agent</h2>
+                    <p>Trip planning with friends or family is now a fun collaboration across the whole group. Slyyp is the new way to plan your next group trip, from the initial dreaming phase, itinerary organization and expert advices to make your next holiday dream come true.</p>
+                    <div class="mt-6 is-size-5 is-flex is-align-items-center ">
+                        <span class="slyyp-emoij is-size-3 mr-3">✅</span>
+                        <p>Book your trips and party reservations with confidence anytime, anywhere <span class="has-text-primary">with  Slyyp support</span>.</p>
+                    </div>
+                </div>
+                <div class="column">
+                    <!-- cards -->
+                    <div class="grid is-gap-6 is-col-min-12">
+                        <div class="cell">
+                            <div class="card floating-1">
+                                <div class="card-content">
+                                    <div class="content">
+                                    <span class="slyyp-emoij is-size-1">🤖</span>
+                                    <h3 class="my-1">AI Travel Agent</h3>
+                                    <p>Our Travel AI helps you organize trips, make smarter decisions, and provides personalized destination recommendations for your group.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="card floating-4">
+                                <div class="card-content">
+                                    <div class="content">
+                                    <span class="slyyp-emoij is-size-1">💬</span>
+                                    <h3 class="my-1">Conversational experience</h3>
+                                    <p>Simply message Slyyp on WhatsApp for instant support in organizing your next group adventure!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="card floating-3">
+                                <div class="card-content">
+                                    <div class="content">
+                                    <span class="slyyp-emoij is-size-1">🗓️</span>
+                                    <h3 class="my-1">A new kind of trip planner workspace</h3>
+                                    <p>With Slyyp, agreeing on dates and destinations is no longer a hassle – our agent coordinates everything for you and your travel mates.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="cell">
+                            <div class="card floating-2">
+                                <div class="card-content">
+                                    <div class="content">
+                                    <span class="slyyp-emoij is-size-1">💡</span>
+                                    <h3 class="my-1">Not sure what to do or where to go?</h3>
+                                    <p>Need recommendations before or during your trip? Just say 'Hi!' – Slyyp has you covered! 👋</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <i class="lni lni-user-multiple-4"></i>
-                        <h3>Everyone is now a travel agent</h3>
-                        <p>Trip planning with friends or family is now a fun collaboration across the whole group</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <i class="lni lni-calendar-days"></i>
-                        <h3>A new kind of trip planner workspace</h3>
-                        <p>You can save, organise and share all your ideas and hotels with your travel mates</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
-                        <i class="lni lni-message-3-text"></i>
-                        <h3>Conversation experience</h3>
-                        <p>Communicate with us online on your preferred channel: Email, iMessage or WhatsApp</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <i class="lni lni-claude"></i>
-                        <h3>AI Travel Agent</h3>
-                        <p>Get unique trip and destination advices supported by a sophisticated AI engine 
-                        </p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
-                        <i class="lni lni-chrome"></i>
-                        <h3>Powerful Chrome Extension</h3>
-                        <p>Slyyp offers a seamless integration with Google Chrome to manage trips from your browser</p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-                <div class="col-lg-4 col-md-6 col-12">
-                    <!-- Start Single Feature -->
-                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
-                        <i class="lni lni-credit-card-multiple"></i>
-                        <h3>Booking trips with confidence</h3>
-                        <p>Make your party reservations in your preferred site or app, with Slyyp support </p>
-                    </div>
-                    <!-- End Single Feature -->
-                </div>
-            </div>
+            
         </div>
     </section>
     <!-- End Features Area -->
 
     <!-- Start Achievement Area -->
-    <section id="about-us" class="our-achievement section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s" style="color:white;">Founded by Travel Experts</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s" style="color:white;">Slyyp founders have more than 20+ years in the travel industry developing products for millions of customers at the biggest travel companies in the world, including:</p>
-                        
-                    </div>
-                <div class="row col-lg-12 col-md-12 col-12" style="text-align: center;">
-                    <div class="col-lg-3 col-md-12 col-12"></div>
-                    <div class="col-lg-3 col-md-12 col-12 wow fadeInUp" data-wow-delay=".9s"><img src="assets/images/booking-white.svg" style="width:250px; height:auto;"></div>
-                    <div class="col-lg-3 col-md-12 col-12 wow fadeInUp" data-wow-delay=".9s"><img src="assets/images/expedia-white.svg" style="width:250px; height:auto;"></div>
-                    <div class="col-lg-3 col-md-12 col-12"></div>
-                </div>
-                </div>
+    <section id="about-us" class="pre-footer section has-background-primary">
+        <div class="container slyyp-section-radius">
+            <h2 class="title has-text-white-bis is-1">Founded by Travel Experts</h2>
+            <p class="subtitle has-text-white-bis is-3">Slyyp founders have more than 20+ years in the travel industry developing products for millions of customers at the biggest travel companies in the world, including:</p>
+            <div class="grid is-col-min-6 is-gap-4" style="max-width: 400px;">
+                <div class="cell"><img src="./assets/booking-white.svg" alt="Booking.com"></div>
+                <div class="cell"><img src="./assets/expedia-white.svg" alt="Booking.com"></div>
             </div>
-            
         </div>
     </section>
     <!-- End Achievement Area -->
 
-    <!-- Start Pricing Table Area -->
-    <section id="join-footer" class="pricing-table section">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="section-title">
-                        
-                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Join The Private Beta</h2>
-                        <p class="wow fadeInUp" data-wow-delay=".6s">Join a selected group of travellers that is helping us to create the next generation of travel planning intelligence supported by a team of travel experts.</p>
-                        
-                    </div>
-                <div class="row col-lg-12 col-md-12 col-12" style="text-align: center;">
-                    <div class="col-lg-3 col-md-12 col-12"></div>
-                    <div class="col-lg-6 col-md-12 col-12">
-
-                        <div class="launchlist-widget" data-key-id="6NqoXu" data-height="180px"></div>
-
-                        
-                    </div>
-                    <div class="col-lg-3 col-md-12 col-12"></div>
-                </div>
-                </div>
-            </div>
-            
-        </div>
-    </section>
-    <!--/ End Pricing Table Area -->
-
-
     <!-- Start Footer Area -->
     <footer class="footer">
-        <!-- Start Footer Top -->
-        <div class="footer-top">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 col-md-12 col-12">
-                        <!-- Single Widget -->
-                        <div class="single-footer f-about" style="text-align: center;">
-                            <div class="logo">
-                                <a href="index.html">
-                                    <img src="assets/images/logo/white-logo.svg" alt="#">
-                                </a>
-                            </div>
-                            <p>Group holiday planning made easier</p>
-                            <p class="copyright-text">Slyyp Ltd<br>
-                                
-                                71-75, Shelton Street, Covent Garden
-                                <br> WC2H 9JQ London 
-                                <br> United Kingdom
-                                <br>
-                                    ✉️ <a href="mailto:cassio@slyyp.com">hello@slyyp.com</a> | ☎️ +44 7730.320.572
-                            </p>
-                        </div>
-                        <!-- End Single Widget -->
-                    </div>
-                    
-                </div>
-            </div>
+        <div class="content has-text-centered">
+          <p>
+            <strong>Slyyp Ltd</strong>
+            71-75, Shelton Street, Covent Garden - WC2H 9JQ London, United Kingdom
+          </p>
+          <p>
+            <a href="mailto:cassio@slyyp.com">hello@slyyp.com</a> | +44 7730.320.572
+          </p>
         </div>
-        <!--/ End Footer Top -->
     </footer>
     <!--/ End Footer Area -->
 
     <!-- ========================= scroll-top ========================= -->
-    <a href="#" class="scroll-top">
+    <a href="#" class="scroll-top" style="display: none;">
         <i class="lni lni-chevron-up"></i>
     </a>
 
-    <!-- ========================= JS here ========================= -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/tiny-slider.js"></script>
-    <script src="assets/js/glightbox.min.js"></script>
-    <script src="assets/js/count-up.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script type="text/javascript">
-
-        //====== counter up 
-        var cu = new counterUp({
-            start: 0,
-            duration: 2000,
-            intvalues: true,
-            interval: 100,
-            append: " ",
-        });
-        cu.start();
-    </script>
-</body>
-
-</html>
+</body></html>

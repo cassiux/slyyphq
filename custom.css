@@ -1,0 +1,144 @@
+:root {
+    /* Update CSS variables */
+    --bulma-primary-h: 342deg;
+    --bulma-primary-s: 75%;
+    --bulma-primary-l: 58%;
+    --bulma-link-h: 342deg;
+    --bulma-link-s: 75%;
+    --bulma-link-l: 58%;
+    --bulma-info-h: 221deg;
+    --bulma-info-s: 88%;
+    --bulma-info-l: 56%;
+    --bulma-success-s: 71%;
+    --bulma-success-l: 39%;
+    --bulma-danger-l: 44%;
+    --bulma-slyyp-secondary-color-rgb: rgb(253, 126, 20);
+}
+
+.is-size-0 {
+    font-size: Calc(3rem + 2vw) !important;
+}
+.is-gradient-text {
+    background: linear-gradient(to right, hsl(var(--bulma-primary-h),var(--bulma-primary-s),var(--bulma-primary-l)), var(--bulma-slyyp-secondary-color-rgb));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+body {
+    --dot-bg: var(--bulma-body-background-color);
+    --dot-color: var(--bulma-grey-lighter);
+    --dot-size: 2px;
+    --dot-space: 2rem;
+      background:
+          linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+          var(--dot-color);
+  }
+
+.has-background-secondary {
+    background: var(--bulma-slyyp-secondary-color-rgb);
+}
+
+.slyyp-section-radius {
+    padding: calc(2rem + 3vw);
+    border-radius: calc(2rem + 3vw);
+}
+
+.slyyp-decoration-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 70vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.slyyp-decoration-bg {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    opacity: .85;
+    height: 50vh;
+    width: 40vh;
+    border-radius: 70% 80% 90% 60%;
+    animation: wobble 4s ease-in-out alternate infinite;
+    z-index: 100;
+    transform: rotate(42deg);
+}
+.slyyp-decoration-bg-2 {
+    position: absolute;
+    top: 37vh;
+    opacity: .65;
+    height: 60vh;
+    width: 50vh;
+    border-radius: 70% 80% 90% 60%;
+    animation: wobble 5sease-in-out alternate infinite;
+    z-index: 50;
+    left: 50%;
+    transform: rotate(84deg);
+}
+  
+@keyframes wobble {
+    50% {
+        border-radius: 30% 50% 10% 40%;
+    }
+    100% {
+        border-radius: 80% 20% 100% 50%;
+}
+}
+.pre-footer {
+    position: relative;
+    border-top-right-radius: 25vw;
+    border-bottom-left-radius: 15vw;
+}
+.pre-footer:before {
+    content: '';
+    width: 15vw;
+    height: 15vw;
+    background-color: var(--bulma-primary);
+    position:absolute;
+    top:-15vw;
+    left:0;
+    background: radial-gradient(circle at top right,transparent 15vw, var(--bulma-primary) 15.1vw);
+}
+.pre-footer:after {
+    content: '';
+    width: 15vw;
+    height: 15vw;
+    background-color: var(--bulma-primary);
+    position:absolute;
+    bottom:-15vw;
+    right:0;
+    background: radial-gradient(circle at bottom left,transparent 15vw, var(--bulma-primary) 15.1vw);
+}
+
+.floating-1 {
+    animation: float 2s ease-in-out infinite;
+}
+.floating-2 {
+    animation: float 2.5s ease-in-out infinite;
+}
+.floating-3 {
+    animation: float 1.8s ease-in-out infinite;
+}
+.floating-4 {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+0% {
+    transform: translateY(0);
+}
+50% {
+    transform: translateY(-10px);
+}
+100% {
+    transform: translateY(0);
+}
+}
+.button{
+    color: #FFFFFF;
+ } 
+.button:hover{
+    background:  rgb(253, 126, 20);
+ } 
