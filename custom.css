@@ -35,6 +35,12 @@ body {
           var(--dot-color);
   }
 
+.header-navigation {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .has-background-secondary {
     background: var(--bulma-slyyp-secondary-color-rgb);
 }
@@ -72,12 +78,12 @@ body {
     height: 60vh;
     width: 50vh;
     border-radius: 70% 80% 90% 60%;
-    animation: wobble 5sease-in-out alternate infinite;
+    animation: wobble 5s ease-in-out alternate infinite;
     z-index: 50;
     left: 50%;
     transform: rotate(84deg);
 }
-  
+
 @keyframes wobble {
     50% {
         border-radius: 30% 50% 10% 40%;
@@ -138,7 +144,7 @@ body {
 }
 .button{
     color: #FFFFFF;
- } 
+ }
 .button:hover{
     background:  rgb(253, 126, 20);
- } 
+ }
