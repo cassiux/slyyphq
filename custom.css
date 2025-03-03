@@ -13,6 +13,7 @@
     --bulma-success-l: 39%;
     --bulma-danger-l: 44%;
     --bulma-slyyp-secondary-color-rgb: rgb(253, 126, 20);
+    --bulma-h1:var(--bulma-h1);
 }
 
 .is-size-0 {
@@ -92,6 +93,9 @@ body {
         border-radius: 80% 20% 100% 50%;
 }
 }
+.footer{
+    font-size: 14px;
+}
 .pre-footer {
     position: relative;
     border-top-right-radius: 25vw;
@@ -148,3 +152,33 @@ body {
 .button:hover{
     background:  rgb(253, 126, 20);
  }
+.legal-pages, .header-navigation{
+    background: #FFFFFF;
+} 
+.legal-pages h1{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.legal-pages h2{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.legal-pages h3{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.legal-pages h4{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.legal-pages p, ul{
+    margin-bottom: 10px;
+}
+.legal-pages li{
+    list-style:circle;
+    margin-left: 15px;
+}
